@@ -26,35 +26,36 @@ interface User {
 }
 
 const user: User = {
-  name: "VOLTECH⚡",
-  email: "store@voltech.com",
+  name: "🍄 FUNGI BROTHERS",
+  email: "contacto@fungibrothers.com",
   avatar: "https://www.creativefabrica.com/wp-content/uploads/2023/02/11/Galaxy-Astronaut-Monkey-Painting-60761789-1.png",
 };
 
 const menuItems: Item[] = [
   {
     label: "Inicio",
-    href: "",
+    href: "/",
   },
   {
     label: "Productos",
     subItems: [
-      { label: "Smartwatchs", href: "productos" },
-      { label: "Auriculares", href: "productos" },
-      { label: "Accesorios", href: "" },
+      { label: "CORDYCEPS", href: "/store/catalogo" },
+      { label: "MELENA DE LEÓN", href: "/store/catalogo" },
+      { label: "REISHI", href: "/store/catalogo" },
+      { label: "COMBO TRÍADA", href: "/store/catalogo" },
     ],
   },
   {
     label: "Sobre Nosotros",
-    href: "nosotros",
+    href: "/store/nosotros",
   },
   {
-    label: "Branding",
-    href: "",
+    label: "Conocé Más",
+    href: "/store/info",
   },
   {
     label: "Contacto",
-    href: "",
+    href: "/store",
   },
 ];
 
@@ -89,11 +90,13 @@ const SidebarMobileMenu: React.FC = () => {
       </div>
 
       {isMenuOpen && (
-        <div className="md:hidden fixed inset-0 bg-gray-800 bg-opacity-75 z-50">
-          <div className="fixed inset-y-0 left-0 w-64 bg-white shadow-lg" ref={menuRef}>
+        <div className="md:hidden fixed inset-0 bg-opacity-75 z-50">
+          <div style={{
+        background: "radial-gradient(circle at bottom left, #1e293b 0%, #0f172a 40%, #000000 100%)",
+      }} className="fixed inset-y-0 left-0 w-64 shadow-lg" ref={menuRef}>
             <div className="px-6 flex items-center justify-between h-20 p-4 border-b border-gray-700">
               <Button variant="outline" size="icon" aria-label="Home">
-                <img src={Logo} className="size-9 fill-foreground" alt="Logo" />
+                {/* <img src={Logo} className="size-9 fill-foreground" alt="Logo" /> */}🍄
               </Button>
               <button
                 onClick={toggleMenu}

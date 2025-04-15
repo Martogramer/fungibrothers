@@ -23,7 +23,7 @@ interface SidebarProps {
 
 const MobileMenu: React.FC<SidebarProps> = ({ items, user }) => {
   return (
-    <div className="flex h-screen flex-col justify-between border-e bg-white">
+    <div className="flex h-screen flex-col justify-between ">
       <ScrollArea>
         <div className="px-3 py-3">
           <ul className="mt-6 space-y-1">
@@ -83,7 +83,7 @@ const MobileMenu: React.FC<SidebarProps> = ({ items, user }) => {
       <div className="sticky inset-x-0 bottom-0 border-t border-gray-100">
         <a
           href="#"
-          className="flex items-center gap-2 bg-white p-4 hover:bg-gray-50"
+          className="flex items-center gap-2 p-4 hover:bg-gray-50"
         >
           <img
             alt="User avatar"

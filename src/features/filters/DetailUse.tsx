@@ -2,6 +2,8 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { mockBlogPosts, mockProducts } from "@/mocks/mocks";
 import FilterSearch from "./SearchFilter";
+import ShimmerBox from "@/components/_Customs2024/ShimmerBox";
+import ShimmerCard from "@/components/_Customs2024/ShimmerCard";
 
 interface Product {
   id: number;
@@ -103,6 +105,17 @@ const DetailUse: React.FC = () => {
           ))}
         </div>
       </div>
+      <section className="p-6">
+        <ShimmerBox className="text-white p-6">
+          <h2 className="text-xl font-bold mb-2">
+            Conocé más sobre adaptogenos en nuestra sección de blog
+          </h2>
+          <p>o contactate directamente con nosotros y sacate las dudas!</p>
+          <button className="mt-4 px-4 py-2 bg-black bg-opacity-30 rounded text-white hover:bg-opacity-50">
+            Contactate
+          </button>
+        </ShimmerBox>
+      </section>
     </div>
   );
 };

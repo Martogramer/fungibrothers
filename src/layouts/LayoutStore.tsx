@@ -23,9 +23,9 @@ const LayoutStore: React.FC = () => {
   ];
 
   const services = [
-    "Smartwatchs",
-    "Auriculares",
-    "Accesorios",
+    "Cordyceps",
+    "Melena de León",
+    "Reishi",
   ];
   const companyInfo = [
     "Sobre Nosotros",
@@ -49,7 +49,7 @@ const LayoutStore: React.FC = () => {
         services={services}
         companyInfo={companyInfo}
         year={2024}
-        companyName="VOLTECH⚡"
+        companyName="🍄 FUNGI BROTHERS"
       />
     </div>
   );

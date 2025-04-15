@@ -5,11 +5,13 @@ import Home from "@/pages";
 import ProductDetail from "@/features/details/ProductDetail";
 import DetailUse from "@/features/filters/DetailUse";
 import PrivacityDetail from "@/pages/store/PrivacityDetail";
+import AboutPage from "@/pages/store/home/AboutPage";
+import ConoceMas from "@/pages/store/home/ConoceMas";
 
 export const router = createBrowserRouter([
     {
         path: '/',
-        element: <Navigate to="/voltech" replace />
+        element: <Navigate to="/store" replace />
     },
     {
         path: '/voltech',
@@ -29,6 +31,14 @@ export const router = createBrowserRouter([
 			{
 				path: 'catalogo',
 				element: <DetailUse />,
+			},
+			{
+				path: 'info',
+				element: <ConoceMas />,
+			},
+			{
+				path: 'nosotros',
+				element: <AboutPage />,
 			},
 			{
 				path: ':id',

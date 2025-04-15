@@ -1,4 +1,6 @@
 import React, { useState, useMemo, useEffect } from "react";
+
+import { shimmerStyles } from '@/styles/shimmer';
 interface Product {
   id: number;
   name: string;
@@ -69,7 +71,7 @@ const FilterSearch: React.FC<FilterSearchProps> = ({
   }, [filteredItems, onFilterChange]);
 
   return (
-    <div className="p-4 bg-gray-100 rounded-lg shadow">
+    <div className="p-4 bg-gray-100 rounded-lg shadow" style={shimmerStyles.shimmerAnimation}>
       <input
         type="text"
         placeholder="Buscar..."

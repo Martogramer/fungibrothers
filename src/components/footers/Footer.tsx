@@ -26,10 +26,16 @@ const Footer: React.FC<FooterProps> = ({
   companyName,
 }) => {
   return (
-    <footer className="bg-white lg:grid lg:grid-cols-5">
+    <footer
+      style={{
+        background:
+          "radial-gradient(circle at bottom left, #1e293b 0%, #0f172a 40%, #000000 100%)",
+      }}
+      className=" lg:grid lg:grid-cols-5"
+    >
       <div className="relative block h-32 lg:col-span-2 lg:h-full">
         <img
-          src="https://images.unsplash.com/photo-1642370324100-324b21fab3a9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1548&q=80"
+          src="https://plus.unsplash.com/premium_photo-1696617442016-aedc14e87620?q=80&w=481&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
           alt=""
           className="absolute inset-0 h-full w-full object-cover"
         />
@@ -39,7 +45,10 @@ const Footer: React.FC<FooterProps> = ({
         <div className="grid grid-cols-1 gap-8 sm:grid-cols-2">
           <div>
             <p>
-              <a href="#" className="block text-2xl font-medium text-gray-900 hover:opacity-75 sm:text-3xl">
+              <a
+                href="#"
+                className="block text-2xl font-medium text-gray-600 hover:opacity-75 sm:text-3xl"
+              >
                 {contactNumber}
               </a>
             </p>
@@ -53,7 +62,12 @@ const Footer: React.FC<FooterProps> = ({
             <ul className="mt-8 flex gap-6">
               {socialLinks.map((link, index) => (
                 <li key={index}>
-                  <a href={link.href} rel="noreferrer" target="_blank" className="text-gray-700 transition hover:opacity-75">
+                  <a
+                    href={link.href}
+                    rel="noreferrer"
+                    target="_blank"
+                    className="text-gray-600 transition hover:opacity-75"
+                  >
                     <span className="sr-only">{link.label}</span>
                     {link.icon}
                   </a>
@@ -64,11 +78,16 @@ const Footer: React.FC<FooterProps> = ({
 
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
             <div>
-              <p className="font-medium text-gray-900">Productos</p>
+              <p className="font-medium text-gray-600">Productos</p>
               <ul className="mt-6 space-y-4 text-sm">
                 {services.map((service, index) => (
                   <li key={index}>
-                    <a href="#" className="text-gray-700 transition hover:opacity-75">{service}</a>
+                    <a
+                      href="#"
+                      className="text-gray-700 transition hover:opacity-75"
+                    >
+                      {service}
+                    </a>
                   </li>
                 ))}
               </ul>
@@ -79,7 +98,12 @@ const Footer: React.FC<FooterProps> = ({
               <ul className="mt-6 space-y-4 text-sm">
                 {companyInfo.map((info, index) => (
                   <li key={index}>
-                    <a href="#" className="text-gray-700 transition hover:opacity-75">{info}</a>
+                    <a
+                      href="#"
+                      className="text-gray-700 transition hover:opacity-75"
+                    >
+                      {info}
+                    </a>
                   </li>
                 ))}
               </ul>
@@ -91,13 +115,28 @@ const Footer: React.FC<FooterProps> = ({
           <div className="sm:flex sm:items-center sm:justify-between">
             <ul className="flex flex-wrap gap-4 text-xs">
               <li>
-                <a href="#" className="text-gray-500 transition hover:opacity-75">Terminos & Condiciones</a>
+                <a
+                  href="#"
+                  className="text-gray-500 transition hover:opacity-75"
+                >
+                  Terminos & Condiciones
+                </a>
               </li>
               <li>
-                <a href="store/politicadeprivacidad" className="text-gray-500 transition hover:opacity-75">Politica de Privacidad</a>
+                <a
+                  href="store/politicadeprivacidad"
+                  className="text-gray-500 transition hover:opacity-75"
+                >
+                  Politica de Privacidad
+                </a>
               </li>
               <li>
-                <a href="#" className="text-gray-500 transition hover:opacity-75">Cookies</a>
+                <a
+                  href="#"
+                  className="text-gray-500 transition hover:opacity-75"
+                >
+                  Cookies
+                </a>
               </li>
             </ul>
 
