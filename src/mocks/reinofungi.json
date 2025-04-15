@@ -11,7 +11,7 @@
         "biotecnología",
         "micorremediación"
     ],
-    "mainImage": "https://plus.unsplash.com/premium_photo-1696617442016-aedc14e87620?q=80&w=481&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "mainImage": "https://plus.unsplash.com/premium_photo-1696617442032-bdc4ba48e25d?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "content": [
         {
             "paragraph": "En el suelo que pisas, en el aire que respiras, en la comida que fermentas... los hongos están en todas partes. Son más antiguos que los dinosaurios, más resilientes que muchas plantas, y más poderosos de lo que jamás imaginaste. Bienvenido al Reino Fungi, una dimensión biológica llena de misterios, inteligencia, y salud natural."
@@ -35,10 +35,7 @@
             },
             "quote": "El micelio no solo permite el transporte de recursos: también tiene comportamientos casi cognitivos. Puede resolver laberintos, adaptarse a entornos nuevos y regenerarse tras daños, lo que ha llevado a algunos investigadores a considerarlo una forma de inteligencia no neuronal."
         },
-        {
-            "image": "https://plus.unsplash.com/premium_photo-1696617442016-aedc14e87620?q=80&w=481&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-            "caption": ""
-        },
+        
         {
             "title": "🔬 Propiedades medicinales: lo que la ciencia está descubriendo",
             "paragraph": "Durante siglos, los hongos se han usado en la medicina tradicional china, japonesa e indígena. Hoy, la ciencia moderna está empezando a confirmar lo que los antiguos sabían:"
@@ -65,25 +62,6 @@
             "quote": "Psilocybin produces substantial and sustained decreases in depression and anxiety in patients with life-threatening cancer."
         },
         {
-            "image": "https://plus.unsplash.com/premium_photo-1696617442032-bdc4ba48e25d?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-            "caption": "Psylocibe"
-        },
-        {
-            "title": "🧪 Datos curiosos que te volarán la cabeza",
-            "list": [
-                "👽 Los científicos estudian hongos para entender cómo podría existir vida en otros planetas.",
-                "🍕 El hongo más grande del mundo (Armillaria ostoyae) está en Oregón, EE.UU., ¡y mide casi 10 km²!",
-                "🌋 Algunos hongos, como los del género *Cladosporium*, pueden sobrevivir en ambientes radiactivos.",
-                "🚀 La NASA ha estudiado hongos en la Estación Espacial Internacional como posible recurso para misiones a Marte.",
-                "🧵 Pigmentos de hongos como *Cortinarius* se usan en tintes naturales de ropa y cosméticos.",
-                "🧫 Los hongos también tienen potencial para biodegradar plásticos y limpiar petróleo (micorremediación)."
-            ],
-            "link": {
-                "text": "NASA: Fungal Life in Space Research",
-                "url": "https://www.nasa.gov/feature/fungi-in-space"
-            }
-        },
-        {
             "title": "🧵 Tecnología Fúngica: ¿El futuro es micelio?",
             "paragraph": "El micelio no solo conecta bosques —también puede construir nuestro futuro.",
             "list": [
@@ -100,6 +78,21 @@
             "video": {
                 "title": "Estudio de la Universidad de British Columbia (2019)",
                 "url": "https://www.youtube.com/watch?v=u8HNNW9fMn8"
+            }
+        },
+        {
+            "title": "🧪 Datos curiosos que te volarán la cabeza",
+            "list": [
+                "👽 Los científicos estudian hongos para entender cómo podría existir vida en otros planetas.",
+                "🍕 El hongo más grande del mundo (Armillaria ostoyae) está en Oregón, EE.UU., ¡y mide casi 10 km²!",
+                "🌋 Algunos hongos, como los del género Cladosporium, pueden sobrevivir en ambientes radiactivos.",
+                "🚀 La NASA ha estudiado hongos en la Estación Espacial Internacional como posible recurso para misiones a Marte.",
+                "🧵 Pigmentos de hongos como Cortinarius se usan en tintes naturales de ropa y cosméticos.",
+                "🧫 Los hongos también tienen potencial para biodegradar plásticos y limpiar petróleo (micorremediación)."
+            ],
+            "link": {
+                "text": "NASA: Fungal Life in Space Research",
+                "url": "https://www.nasa.gov/feature/fungi-in-space"
             }
         },
         {

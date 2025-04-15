@@ -7,6 +7,7 @@ import DetailUse from "@/features/filters/DetailUse";
 import PrivacityDetail from "@/pages/store/PrivacityDetail";
 import AboutPage from "@/pages/store/home/AboutPage";
 import ConoceMas from "@/pages/store/home/ConoceMas";
+import Psilocibina from "@/pages/store/home/Psilocibina";
 
 export const router = createBrowserRouter([
     {
@@ -35,6 +36,10 @@ export const router = createBrowserRouter([
 			{
 				path: 'info',
 				element: <ConoceMas />,
+			},
+			{
+				path: 'psilocibina',
+				element: <Psilocibina />,
 			},
 			{
 				path: 'nosotros',
